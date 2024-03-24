@@ -134,7 +134,7 @@ img {
 .sidebar.active {
   input {
     width: 180px;
-    padding-left: var(--p-inline);
+    padding-left: var(--col-gap);
   }
 }
 
@@ -164,7 +164,6 @@ img {
   display: flex;
   align-items: center;
   column-gap: var(--col-gap);
-  padding-inline: var(--p-inline);
 
   & .footer-icon {
     height: 100%;
