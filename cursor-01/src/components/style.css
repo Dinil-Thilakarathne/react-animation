@@ -1,7 +1,10 @@
 .animated-cursor {
-  background-color: hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 5%);
   pointer-events: none;
   border: none;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  will-change: transform;
 }
