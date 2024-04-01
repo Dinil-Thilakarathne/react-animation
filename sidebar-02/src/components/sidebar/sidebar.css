@@ -4,13 +4,13 @@
   --color-bg: hsl(0, 0%, 90%);
   --color-bg-btn: hsl(0, 85%, 50%);
 
-  --fs-main: 3rem;
+  --fs-main: clamp(1.25rem, (1rem + 1.5vw), 3rem);
   --p-block: 1rem;
   --p-inline: 2rem;
 }
 .sidebar {
   width: 320px;
-  height: 50vh;
+  height: 100dvh;
   background-color: var(--color-bg);
   color: var(--color-text);
   padding: var(--p-block) var(--p-inline);
