@@ -39,7 +39,7 @@
   }
 }
 
-.icon {
+.sidebar-btn {
   padding: calc(var(--p-block) * 0.75);
   font-size: calc(var(--fs-main) * 0.75);
   background-color: var(--color-bg-btn);
