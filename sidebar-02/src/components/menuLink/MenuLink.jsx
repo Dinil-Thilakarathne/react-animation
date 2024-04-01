@@ -1,7 +1,6 @@
 const MenuLink = ({ link, text }) => {
   return (
-    <a href={link}>
-      <span className="icon"></span>
+    <a href={link} className="menu-link">
       <span className="text">{text}</span>
     </a>
   );

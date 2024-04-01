@@ -1,0 +1,54 @@
+:root {
+  --color-text: hsl(0, 0%, 10%);
+  --color-text-hover: hsl(0, 0%, 40%);
+  --color-bg: hsl(0, 0%, 90%);
+  --color-bg-btn: hsl(0, 85%, 50%);
+
+  --fs-main: 3rem;
+  --p-block: 1rem;
+  --p-inline: 2rem;
+}
+.sidebar {
+  width: 320px;
+  height: 50vh;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding: var(--p-block) var(--p-inline);
+  border: none;
+  border-radius: 0 0 2rem 0;
+
+  & .sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  & .sidebar-menu {
+    margin-top: calc(var(--p-block) * 6);
+  }
+  & .menu-link {
+    font-size: var(--fs-main);
+    text-transform: uppercase;
+    transition: padding-left 0.25s cubic-bezier(0.6, 0, 0.05, 0);
+
+    &:hover {
+      padding-left: var(--p-block);
+      color: var(--color-text-hover);
+    }
+  }
+}
+
+.icon {
+  padding: calc(var(--p-block) * 0.75);
+  font-size: calc(var(--fs-main) * 0.75);
+  background-color: var(--color-bg-btn);
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: var(--p-block);
+  left: var(--p-inline);
+  user-select: none;
+  z-index: 99;
+  cursor: pointer;
+}
