@@ -1,0 +1,23 @@
+:root {
+  --color-black: hsl(0, 0%, 5%);
+  --color-light-gray: hsl(0, 0%, 55%);
+  --p-inline: 1.75rem;
+
+  --fs-small: clamp(0.75rem, 0.6286rem + 0.5178vw, 1.25rem);
+  --fs-medium: clamp(1.5rem, 0.6966rem + 1.2945vw, 3rem);
+  --fs-large: clamp(2rem, 1.0291rem + 2.1424vw, 4rem);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+  width: 100%;
+  font-family: "Poppins";
+}
+ul {
+  list-style: none;
+}
