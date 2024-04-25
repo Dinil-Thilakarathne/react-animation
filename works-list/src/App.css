@@ -23,12 +23,11 @@
 }
 
 .project-list {
-  --_duration: 1s;
+  --_duration: 0.75s;
   padding-inline: var(--p-inline);
   padding-top: 4rem;
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
 }
 .project-list__item {
   display: flex;
